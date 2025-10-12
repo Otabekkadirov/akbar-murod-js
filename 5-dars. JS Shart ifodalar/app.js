@@ -62,3 +62,64 @@
 // } else {
 //     console.log("ProUnity yopiq");
 // }
+
+// 8:30 - 9:15
+// 9:20 - 10:05
+// 10:10 - 10:55
+// 11:20 - 12:05
+// 12:10 - 12:55
+
+// 13:00 - 13:40
+
+// 13:40 - 14:20
+// 14:20 - 15:00
+// 15:00 - 15:40
+// 15:45 - 16:35
+// 16:35 - 17:05
+
+// let soat = 8.15;
+// soat = 9.25;
+
+// if (soat < 8.3) {
+//     console.log("Dars hali boshlanmadi.");
+// } else if (soat >= 8.3 && soat < 9.15) {
+//     console.log("Hozir 1-soat");
+// } else if (soat >= 9.15 && soat < 9.2) {
+//     console.log("1-soat tugadi, tanaffus!");
+// } else if (soat >= 9.2 && soat < 10.05) {
+//     console.log("Hozir 2-soat");
+// }
+
+// Switch
+
+let fasl = prompt("hozir qaysi fasl?");
+
+switch (fasl) {
+    case "bahor":
+        console.log("daraxtlar gulladi");
+        break;
+    case "yoz":
+        console.log("quyosh, juda issiq");
+        break;
+    case "kuz":
+        console.log("barglar to'kila boshladi");
+        break;
+    case "qish":
+        console.log("qor, hammayoq oppoq!");
+        break;
+    default:
+        console.log("noma'lum fasl");
+        break;
+}
+
+// if (fasl == "qish") {
+//     console.log("qor yog'di, hammayoq oppoq");
+// } else if (fasl == "bahor") {
+//     console.log("daraxtlar gulladi");
+// } else if (fasl == "yoz") {
+//     console.log("quyosh qizdiradi, havo issiq");
+// } else if (fasl == "kuz") {
+//     console.log("barglar to'kila boshladi");
+// } else {
+//     console.log("noma'lum fasl");
+// }
